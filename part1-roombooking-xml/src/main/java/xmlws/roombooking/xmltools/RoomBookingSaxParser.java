@@ -19,6 +19,7 @@ public class RoomBookingSaxParser implements RoomBookingParser {
             SAXParser saxParser = spf.newSAXParser();
             saxParser.parse(inputStream, new RoomBookingBasicHandler());
 
+
         } catch (Exception e) {
 
         }
